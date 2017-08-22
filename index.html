@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html data-ng-app="googleMapsApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Angular Google Maps App</title>
+
+    <link rel='stylesheet' type='text/css' href='static/css/google-maps.css'>
+</head>
+
+<body data-ng-controller="HomeController">
+    <google-maps data-zoom="zoom"
+                 data-center="center"
+                 data-markers="markers"></google-maps>
+
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="js/google-maps.js"></script>
+</body>
+
+</html>
